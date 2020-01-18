@@ -1,7 +1,12 @@
 import React from 'react';
 
 import { Container } from './styles';
+import Snake from '~/components/Snake';
 
-export default function pages() {
-  return <Container>Start coding here!</Container>;
+export default function Main() {
+  return (
+    <Container>
+      <Snake />
+    </Container>
+  );
 }
